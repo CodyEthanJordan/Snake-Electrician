@@ -20,6 +20,12 @@ TextureImporter:
   - first:
       213: 6250267177788169180
     second: test_snake_5
+  - first:
+      213: 3570837682673267103
+    second: test_snake_6
+  - first:
+      213: -6329144316349513719
+    second: test_snake_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -242,6 +248,48 @@ TextureImporter:
       bones: []
       spriteID: cdbd85302e86db650800000000000000
       internalID: 6250267177788169180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: test_snake_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91b15a04f92e8130800000000000000
+      internalID: 3570837682673267103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: test_snake_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9000ecb07cc5a28a0800000000000000
+      internalID: -6329144316349513719
       vertices: []
       indices: 
       edges: []

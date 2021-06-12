@@ -9,6 +9,7 @@ TagManager:
   - Pit
   - Water
   - Wall
+  - Boost
   layers:
   - Default
   - TransparentFX
