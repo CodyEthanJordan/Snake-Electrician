@@ -1822,7 +1822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9925c3260d8131942bdabf12aca7d1c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: SampleScene
+  nextScene: Before 1
 --- !u!224 &8303810087852787467 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2155829761479169508, guid: c3d2c683fbaf0ab419bd6b139c423f31, type: 3}
