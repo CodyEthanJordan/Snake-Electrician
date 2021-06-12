@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8259174822013985984}
   - component: {fileID: -4279260442627178981}
   m_Layer: 0
-  m_Name: orange
+  m_Name: anti-orange
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,9 +74,9 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1327652096248301644, guid: c0ae0ecc9a665384ab28e8abefe044c4, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
+  m_Color: {r: 0.3844083, g: 0.6509434, b: 0.18115878, a: 1}
+  m_FlipX: 1
+  m_FlipY: 1
   m_DrawMode: 0
   m_Size: {x: 0.5625, y: 0.8125}
   m_AdaptiveModeThreshold: 0.5
@@ -112,4 +112,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 633d92b35625315468a66b74e67a8f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Value: 1
+  Value: -1
