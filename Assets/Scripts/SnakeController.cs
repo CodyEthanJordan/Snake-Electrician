@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -52,36 +53,45 @@ namespace Assets.Scripts
         {
             Vector2Int heading = new Vector2Int(Mathf.RoundToInt(Input.GetAxisRaw("Horizontal")), Mathf.RoundToInt(Input.GetAxisRaw("Vertical")));
             UpdateHeading(heading);
-
+            
             turnTimer -= Time.deltaTime;
             if (turnTimer <= 0)
             {
                 turnTimer = TurnLength;
-                var newHead = Body[0] + nextDirection;
-                CheckCollision(newHead);
-                //var newHead = Body[Body.Count - 1] + nextDirection;
-                //Body.Add(newHead);
-                Body.Insert(0, newHead);
-                if (growth == 0)
-                {
-                    Body.RemoveAt(Body.Count - 1);
-                }
-                else if(growth > 0)
-                {
-                    growth--;
-                }
-                else //negative
-                {
-                    growth++;
-                    Body.RemoveAt(Body.Count - 1);
-                    Body.RemoveAt(Body.Count - 1);
-                    if(Body.Count <= 0)
-                    {
-                        Die();
-                    }
-                }
+                GoDirection(nextDirection);
                 RerenderBody();
                 CheckTouching();
+            }
+        }
+
+        private void GoDirection(Vector2Int heading)
+        {
+            var newHead = Body[0] + heading;
+            var success = CheckCollision(Body[0], newHead);
+            if(!success)
+            {
+                return;
+            }
+            //var newHead = Body[Body.Count - 1] + nextDirection;
+            //Body.Add(newHead);
+            Body.Insert(0, newHead);
+            if (growth == 0)
+            {
+                Body.RemoveAt(Body.Count - 1);
+            }
+            else if(growth > 0)
+            {
+                growth--;
+            }
+            else //negative
+            {
+                growth++;
+                Body.RemoveAt(Body.Count - 1);
+                Body.RemoveAt(Body.Count - 1);
+                if(Body.Count <= 0)
+                {
+                    Die();
+                }
             }
         }
 
@@ -119,7 +129,6 @@ namespace Assets.Scripts
                 }
             }
 
-            Debug.Log("Pits touching: " + pitsOver);
             if(pitsOver >= Body.Count)
             {
                 Die();
@@ -147,10 +156,46 @@ namespace Assets.Scripts
             nextDirection = heading;
         }
 
-        private void CheckCollision(Vector2Int pos)
+        private Vector2Int GetNextHeadingClockwise(Vector2Int heading)
+        {
+            if (heading == Vector2Int.up)
+            {
+                return Vector2Int.right;
+            }
+            else if (heading == Vector2Int.right)
+            {
+                return Vector2Int.down;
+            }
+            else if (heading == Vector2Int.down)
+            {
+                return Vector2Int.left;
+            }
+            else if (heading == Vector2Int.left)
+            {
+                return Vector2Int.up;
+            }
+
+            throw new NotImplementedException();
+        }
+
+        public bool Passable(Vector2Int pos)
         {
             var offset = new Vector2(this.transform.position.x, this.transform.position.y);
             var colliders = Physics2D.OverlapCircleAll(pos + offset, 0.3f);
+            foreach (var col in colliders)
+            {
+                if(col.CompareTag("Wall"))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        private bool CheckCollision(Vector2Int current, Vector2Int target)
+        {
+            var offset = new Vector2(this.transform.position.x, this.transform.position.y);
+            var colliders = Physics2D.OverlapCircleAll(target + offset, 0.3f);
 
             foreach (var col in colliders)
             {
@@ -165,11 +210,34 @@ namespace Assets.Scripts
                 {
 
                 }
+                else if(col.CompareTag("Wall"))
+                {
+                    var heading = target - current;
+                    var newHeading = GetNextHeadingClockwise(heading);
+                    if(Passable(current+newHeading))
+                    {
+                        nextDirection = newHeading;
+                        GoDirection(newHeading);
+                        return false;
+                    }
+                    else if(Passable(current - newHeading))
+                    {
+                        nextDirection = -newHeading;
+                        GoDirection(nextDirection);
+                        return false;
+                    }
+                    else
+                    {
+                        Die();
+                    }
+                }
                 else
                 {
-                    Die();
+                    Die(); //idk
                 }
             }
+
+            return true;
         }
 
         private void RerenderBody()
@@ -178,7 +246,6 @@ namespace Assets.Scripts
             {
                 Destroy(child.gameObject);
             }
-
 
             for (int i = 0; i < Body.Count; i++)
             {
