@@ -743,19 +743,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - All right, which one are you again?
-  - Snake Gyllenhall. Right.
-  - "Well, welcome to the International Serpenthood of Electric Workers. Here\u2019s
-    your complimentary hardhat and toolbelt."
-  - "Don\u2019t worry about the cost, it\u2019s already been taken out of your first
-    paycheck."
-  - "I\u2019m the night shift supervisor, Mr. Boagart, but you can call me Supe."
-  - "I\u2019ll be walking you through the day\u2019s agenda, making sure you don\u2019t
-    break nothin\u2019, and taking credit for your hard work."
+  - That old government-funded hospital is on the fritz again.
+  - "Life support\u2019s going crazy, lights flickerin\u2019."
+  - "Hell, even the morgue\u2019s thawin\u2019 out."
+  - See if you can get into their mechanical room and figure out just how screwed
+    up it is.
+  - Just watch out for old glue traps.
+  - Last rookie we sent in never came out.
+  - Take your time with this one.
+  - " We\u2019re chargin\u2019 them the government rate, which they think is a discount
+    but is actually marked up ten percent."
   - Haw haw haw.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: Level Select
+  nextScene: RNG4
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0

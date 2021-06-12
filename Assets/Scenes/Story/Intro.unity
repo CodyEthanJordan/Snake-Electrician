@@ -745,8 +745,8 @@ MonoBehaviour:
   sentences:
   - All right, which one are you again?
   - Snake Gyllenhall. Right.
-  - "Well, welcome to the International Serpenthood of Electric Workers. Here\u2019s
-    your complimentary hardhat and toolbelt."
+  - 'Well, welcome to the International Serpenthood of Electric Workers. '
+  - "Here\u2019s your complimentary hardhat and toolbelt."
   - "Don\u2019t worry about the cost, it\u2019s already been taken out of your first
     paycheck."
   - "I\u2019m the night shift supervisor, Mr. Boagart, but you can call me Supe."

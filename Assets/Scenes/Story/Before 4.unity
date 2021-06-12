@@ -743,19 +743,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - All right, which one are you again?
-  - Snake Gyllenhall. Right.
-  - "Well, welcome to the International Serpenthood of Electric Workers. Here\u2019s
-    your complimentary hardhat and toolbelt."
-  - "Don\u2019t worry about the cost, it\u2019s already been taken out of your first
-    paycheck."
-  - "I\u2019m the night shift supervisor, Mr. Boagart, but you can call me Supe."
-  - "I\u2019ll be walking you through the day\u2019s agenda, making sure you don\u2019t
-    break nothin\u2019, and taking credit for your hard work."
-  - Haw haw haw.
+  - "All right Mr. Hot Shot Rookie, let\u2019s see you sort this one out in a hurry."
+  - "Snake Oil Industries has a refinery on the edge of town that\u2019s had a bunch
+    of problems."
+  - "They got some kind of leak, so there\u2019s oil everywhere."
+  - Not even those non-union scabs want to try and take this one from us.
+  - Sounds like just the job for an up and comer such as yourself.
+  - Bosses just called.
+  - They want you to get this one done quick.
+  - They say to hurry up and take chances.
+  - "You\u2019ve got good life insurance."
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: Level Select
+  nextScene: RNG5
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0

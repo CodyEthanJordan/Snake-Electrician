@@ -743,19 +743,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - All right, which one are you again?
-  - Snake Gyllenhall. Right.
-  - "Well, welcome to the International Serpenthood of Electric Workers. Here\u2019s
-    your complimentary hardhat and toolbelt."
-  - "Don\u2019t worry about the cost, it\u2019s already been taken out of your first
-    paycheck."
-  - "I\u2019m the night shift supervisor, Mr. Boagart, but you can call me Supe."
-  - "I\u2019ll be walking you through the day\u2019s agenda, making sure you don\u2019t
-    break nothin\u2019, and taking credit for your hard work."
-  - Haw haw haw.
+  - "Okay kid, here\u2019s the real deal."
+  - Looks like the Cape Coral Snake Nuclear Power Plant is having some serious malfunctions.
+  - "It\u2019s probably safe enough to go in and get things fixed up."
+  - "I\u2019d tell you to be careful, but a little upstart like you probably doesn\u2019t
+    listen to the senior guy any more."
+  - Good luck. See you if you get back.
+  - "Not to distract you, but HR just called to confirm that your health benefits
+    don\u2019t kick in for another month."
+  - You can leave now, but just to be clear, you will be fired for cause.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: Level Select
+  nextScene: RNG6
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0

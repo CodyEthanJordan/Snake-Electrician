@@ -743,19 +743,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - All right, which one are you again?
-  - Snake Gyllenhall. Right.
-  - "Well, welcome to the International Serpenthood of Electric Workers. Here\u2019s
-    your complimentary hardhat and toolbelt."
-  - "Don\u2019t worry about the cost, it\u2019s already been taken out of your first
-    paycheck."
-  - "I\u2019m the night shift supervisor, Mr. Boagart, but you can call me Supe."
-  - "I\u2019ll be walking you through the day\u2019s agenda, making sure you don\u2019t
-    break nothin\u2019, and taking credit for your hard work."
-  - Haw haw haw.
+  - "All right, good work kid, but don\u2019t break your tail stroking your own back."
+  - "I\u2019d have gotten it done in half the time back in my day, and twice as good."
+  - "We\u2019ll probably be back out there in a week."
+  - And by we, I mean you.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: Level Select
+  nextScene: Before 5
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0

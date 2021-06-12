@@ -743,19 +743,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - All right, which one are you again?
-  - Snake Gyllenhall. Right.
-  - "Well, welcome to the International Serpenthood of Electric Workers. Here\u2019s
-    your complimentary hardhat and toolbelt."
-  - "Don\u2019t worry about the cost, it\u2019s already been taken out of your first
-    paycheck."
-  - "I\u2019m the night shift supervisor, Mr. Boagart, but you can call me Supe."
-  - "I\u2019ll be walking you through the day\u2019s agenda, making sure you don\u2019t
-    break nothin\u2019, and taking credit for your hard work."
-  - Haw haw haw.
+  - First order of business today Snake is to get inside the meat processing plant
+    and figure out why their assembly line went down.
+  - Just watch out for any moving parts might start up when you connect those circuits.
+  - "Don\u2019t want you coming out shorter than you went in."
+  - "I haven\u2019t had a decent rat steak all week, and it\u2019s that damn non-union
+    electric work that\u2019s to blame."
+  - Luckily, the owner of this place is sending us a case in thanks for all the hard
+    work, just as soon as you get things running again.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: Level Select
+  nextScene: RNG3
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0
