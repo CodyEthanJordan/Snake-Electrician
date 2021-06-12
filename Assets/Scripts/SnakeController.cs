@@ -71,7 +71,7 @@ namespace Assets.Scripts
                     growth--;
                 }
                 RerenderBody();
-                CheckWin();
+                CheckTouching();
             }
         }
 
@@ -83,10 +83,11 @@ namespace Assets.Scripts
             lc.Reload();
         }
 
-        private void CheckWin()
+        private void CheckTouching()
         {
             int plugsFound = 0;
             int waterTouched = 0;
+            int pitsOver = 0;
             foreach (var segment in Body)
             {
                 var offset = new Vector2(this.transform.position.x, this.transform.position.y);
@@ -97,7 +98,17 @@ namespace Assets.Scripts
                     {
                         plugsFound++;
                     }
+                    else if(col.CompareTag("Pit"))
+                    {
+                        pitsOver++;
+                    }
                 }
+            }
+
+            Debug.Log("Pits touching: " + pitsOver);
+            if(pitsOver >= Body.Count)
+            {
+                Die();
             }
 
             if (plugsFound >= targetPlugs)
@@ -126,10 +137,12 @@ namespace Assets.Scripts
             {
                 if (col.CompareTag("Food"))
                 {
-                    growth++;
+                    var value = col.gameObject.GetComponent<Food>().Value;
+                    growth += value;
+
                     Destroy(col.gameObject);
                 }
-                else if (col.CompareTag("Goal"))
+                else if (col.CompareTag("Goal") || col.CompareTag("Pit")) //TODO: make less stupid
                 {
 
                 }
