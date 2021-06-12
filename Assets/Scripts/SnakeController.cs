@@ -137,7 +137,9 @@ namespace Assets.Scripts
             {
                 if (col.CompareTag("Food"))
                 {
-                    growth++;
+                    var value = col.gameObject.GetComponent<Food>().Value;
+                    growth += value;
+
                     Destroy(col.gameObject);
                 }
                 else if (col.CompareTag("Goal") || col.CompareTag("Pit")) //TODO: make less stupid
