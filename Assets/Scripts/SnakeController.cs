@@ -270,8 +270,11 @@ namespace Assets.Scripts
                 else 
                 {
                     var go =  Instantiate(bodySegment, pos, Quaternion.identity, this.transform);
+                    var bt = go.GetComponent<BodyTurner>();
+                    var upstream = Body[i] - Body[i - 1];
+                    var downstream = Body[i] - Body[i + 1];
+                    bt.RenderDirection(upstream, downstream);
                 }
-               
             }
         }
     }

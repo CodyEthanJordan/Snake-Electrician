@@ -18,10 +18,15 @@ namespace Assets.Scripts
             { new Tuple<Vector2Int, Vector2Int>(Vector2Int.up, Vector2Int.right), 3 },
             { new Tuple<Vector2Int, Vector2Int>(Vector2Int.up, Vector2Int.down), 0 },
             { new Tuple<Vector2Int, Vector2Int>(Vector2Int.up, Vector2Int.left), 5 },
-            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.right, Vector2Int.right), 3 },
-            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.right, Vector2Int.right), 3 },
-            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.right, Vector2Int.right), 3 },
-          
+            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.right, Vector2Int.down), 2 },
+            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.right, Vector2Int.left), 1 },
+            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.right, Vector2Int.up), 5 },
+            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.down, Vector2Int.left), 2 },
+            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.down, Vector2Int.up), 0 },
+            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.down, Vector2Int.right), 4 },
+            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.left, Vector2Int.up), 5 },
+            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.left, Vector2Int.right), 1 },
+            { new Tuple<Vector2Int, Vector2Int>(Vector2Int.left, Vector2Int.down), 2 },
         };
 
         private void Awake()
@@ -31,6 +36,8 @@ namespace Assets.Scripts
 
         public void RenderDirection(Vector2Int upstream, Vector2Int downstream)
         {
+            int i = directions[new Tuple<Vector2Int, Vector2Int>(upstream, downstream)];
+            sr.sprite = Sprites[i];
         }
     }
 }
