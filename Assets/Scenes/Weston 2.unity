@@ -11007,7 +11007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99846f8c75467304f82cbbadc120dcb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextLevelName: Level2
+  NextLevelName: After 9
   BlackFade: {fileID: 0}
   FadeDuration: 0.3
 --- !u!4 &1785224652
