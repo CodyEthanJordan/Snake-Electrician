@@ -11,6 +11,7 @@ namespace Assets.Scripts
         public float TurnLength = 0.4f;
         public GameObject bodySegment;
         public GameObject headSegment;
+        public GameObject tailSegment;
         public LevelController lc;
 
         private float turnTimer = 0.5f;
@@ -97,7 +98,6 @@ namespace Assets.Scripts
 
         public void Die()
         {
-            Debug.LogError("You dead");
             ResetBody();
             turnTimer = TurnLength * 2;
             lc.Reload();
@@ -254,9 +254,27 @@ namespace Assets.Scripts
 
             for (int i = 0; i < Body.Count; i++)
             {
-                var go = i == 0 ? headSegment : bodySegment;
                 var pos = new Vector3(Body[i].x, Body[i].y, 0) + this.transform.position;
-                Instantiate(go, pos, Quaternion.identity, this.transform);
+                if(i == 0)
+                {
+                    var go =  Instantiate(headSegment, pos, Quaternion.identity, this.transform);
+                    var ht = go.GetComponent<HeadTurner>();
+                    ht.RenderDirection(nextDirection);
+                }
+                else if(i == Body.Count - 1)
+                {
+                    var go =  Instantiate(tailSegment, pos, Quaternion.identity, this.transform);
+                    var ht = go.GetComponent<HeadTurner>();
+                    ht.RenderDirection(Body[Body.Count-2] - Body[Body.Count-1]);
+                }
+                else 
+                {
+                    var go =  Instantiate(bodySegment, pos, Quaternion.identity, this.transform);
+                    var bt = go.GetComponent<BodyTurner>();
+                    var upstream = Body[i] - Body[i - 1];
+                    var downstream = Body[i] - Body[i + 1];
+                    bt.RenderDirection(upstream, downstream);
+                }
             }
         }
     }

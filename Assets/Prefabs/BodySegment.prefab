@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 227454716014420570}
   - component: {fileID: 3445358552060924819}
   - component: {fileID: 630320238423113621}
+  - component: {fileID: -671185794418279227}
   m_Layer: 0
   m_Name: BodySegment
   m_TagString: Untagged
@@ -100,7 +101,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.875, y: 0.875}
+    oldSize: {x: 1, y: 1}
     newSize: {x: 0.875, y: 0.875}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -109,3 +110,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.875, y: 0.875}
   m_EdgeRadius: 0
+--- !u!114 &-671185794418279227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83342864338876351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1d6859efed41047882da29a3b13fae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: -5599806623044118774, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  - {fileID: 4893173422862602969, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  - {fileID: -4533321986531109783, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  - {fileID: -2412185197782752956, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  - {fileID: -4014693949648956849, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  - {fileID: -8238982633621267773, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
