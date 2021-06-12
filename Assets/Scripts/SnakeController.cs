@@ -19,16 +19,23 @@ namespace Assets.Scripts
         private int targetPlugs = 2;
 
         public static List<Vector2Int> DefaultBody = new List<Vector2Int>
-    {
-        new Vector2Int(3,0), new Vector2Int(2,0), new Vector2Int(1,0)
-    };
+        {
+            new Vector2Int(3,0), new Vector2Int(2,0), new Vector2Int(1,0)
+        };
 
         // Start is called before the first frame update
         void Start()
         {
             ResetBody();
             RerenderBody();
+            CountGoalPlugs();
             lc = GameObject.Find("LevelController").GetComponent<LevelController>();
+        }
+
+        private void CountGoalPlugs()
+        {
+            var plugs = GameObject.FindGameObjectsWithTag("Goal");
+            targetPlugs = plugs.Length;
         }
 
         private void ResetBody()
@@ -96,6 +103,7 @@ namespace Assets.Scripts
             if (plugsFound >= targetPlugs)
             {
                 Debug.LogError("WIN");
+                lc.GoNextLevel();
             }
         }
 
