@@ -112,6 +112,10 @@ namespace Assets.Scripts
                     {
                         pitsOver++;
                     }
+                    else if(col.CompareTag("Water"))
+                    {
+                        waterTouched++;
+                    }
                 }
             }
 
@@ -119,6 +123,11 @@ namespace Assets.Scripts
             if(pitsOver >= Body.Count)
             {
                 Die();
+            }
+
+            if(waterTouched > 0 && plugsFound > 0)
+            {
+                Die(); //electrocuted, TODO: anim
             }
 
             if (plugsFound >= targetPlugs)
@@ -152,7 +161,7 @@ namespace Assets.Scripts
 
                     Destroy(col.gameObject);
                 }
-                else if (col.CompareTag("Goal") || col.CompareTag("Pit")) //TODO: make less stupid
+                else if (col.CompareTag("Goal") || col.CompareTag("Pit") || col.CompareTag("Water")) //TODO: make less stupid
                 {
 
                 }
