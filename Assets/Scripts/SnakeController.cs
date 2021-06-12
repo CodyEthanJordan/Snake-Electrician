@@ -66,9 +66,19 @@ namespace Assets.Scripts
                 {
                     Body.RemoveAt(Body.Count - 1);
                 }
-                else
+                else if(growth > 0)
                 {
                     growth--;
+                }
+                else //negative
+                {
+                    growth++;
+                    Body.RemoveAt(Body.Count - 1);
+                    Body.RemoveAt(Body.Count - 1);
+                    if(Body.Count <= 0)
+                    {
+                        Die();
+                    }
                 }
                 RerenderBody();
                 CheckTouching();
