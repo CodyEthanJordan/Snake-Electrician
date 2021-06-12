@@ -1,61 +1,49 @@
 fileFormatVersion: 2
-guid: 109645e42ea11f8468a8f51328bfb7f3
+guid: 4facf06a0a755b44faeff590969d2f96
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2863459395957006354
-    second: Shocked_Snake_Sprite_0
+      213: 1735875680216688210
+    second: WaternCracks_0
   - first:
-      213: -7792648404851436152
-    second: Shocked_Snake_Sprite_1
+      213: 7596956658441934918
+    second: WaternCracks_1
   - first:
-      213: 1982901939121144394
-    second: Shocked_Snake_Sprite_2
+      213: -6867202743681137679
+    second: WaternCracks_2
   - first:
-      213: -6889385737735840025
-    second: Shocked_Snake_Sprite_3
+      213: -4417654768773358693
+    second: WaternCracks_3
   - first:
-      213: -8418921237859888746
-    second: Shocked_Snake_Sprite_5
+      213: -4664162771940408528
+    second: WaternCracks_4
   - first:
-      213: 7270263027427560659
-    second: Shocked_Snake_Sprite_8
+      213: 1342371878186811520
+    second: WaternCracks_5
   - first:
-      213: 2697212787115129398
-    second: Shocked_Snake_Sprite_9
+      213: 870731641620142459
+    second: WaternCracks_6
   - first:
-      213: -5421546718334894121
-    second: Shocked_Snake_Sprite_11
+      213: 8040842953580096879
+    second: WaternCracks_7
   - first:
-      213: 3565705961103429263
-    second: Shocked_Snake_Sprite_12
+      213: -4524832790256125669
+    second: WaternCracks_8
   - first:
-      213: -5983286658741727961
-    second: Shocked_Snake_Sprite_13
+      213: 6985008207503894574
+    second: WaternCracks_9
   - first:
-      213: -7845085648239387312
-    second: Shocked_Snake_Sprite_15
+      213: -2752022363245382341
+    second: WaternCracks_10
   - first:
-      213: -7688837137724264177
-    second: Shocked_Snake_Sprite_16
+      213: 5797004564843572864
+    second: WaternCracks_11
   - first:
-      213: -5617772076538366030
-    second: Shocked_Snake_Sprite_18
+      213: -2097042317328742950
+    second: WaternCracks_12
   - first:
-      213: 7286651819874275551
-    second: Shocked_Snake_Sprite_20
-  - first:
-      213: 7738415389093523896
-    second: Shocked_Snake_Sprite_21
-  - first:
-      213: -8198648922337633906
-    second: Shocked_Snake_Sprite_22
-  - first:
-      213: -3348778940085091813
-    second: Shocked_Snake_Sprite_23
-  - first:
-      213: -6013729025154473210
-    second: Shocked_Snake_Sprite_24
+      213: -5563021455976397227
+    second: WaternCracks_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -86,7 +74,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -145,11 +133,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shocked_Snake_Sprite_0
+      name: WaternCracks_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 106
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -159,18 +147,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eef5a33c9d2f248d0800000000000000
-      internalID: -2863459395957006354
+      spriteID: 2562e8debb1171810800000000000000
+      internalID: 1735875680216688210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shocked_Snake_Sprite_1
+      name: WaternCracks_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 106
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -180,18 +168,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 885d0512093fad390800000000000000
-      internalID: -7792648404851436152
+      spriteID: 648587894dfcd6960800000000000000
+      internalID: 7596956658441934918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shocked_Snake_Sprite_2
+      name: WaternCracks_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 106
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -201,18 +189,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a42cfb9cecea48b10800000000000000
-      internalID: 1982901939121144394
+      spriteID: 1f34c461d7bc2b0a0800000000000000
+      internalID: -6867202743681137679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shocked_Snake_Sprite_3
+      name: WaternCracks_3
       rect:
         serializedVersion: 2
         x: 48
-        y: 106
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -222,39 +210,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eedc9d4c2cf360a0800000000000000
-      internalID: -6889385737735840025
+      spriteID: b9b14feb46651b2c0800000000000000
+      internalID: -4417654768773358693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shocked_Snake_Sprite_5
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 95
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6919e515dbbf92b80800000000000000
-      internalID: -8418921237859888746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shocked_Snake_Sprite_8
+      name: WaternCracks_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 74
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -264,18 +231,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dcc97534b925e460800000000000000
-      internalID: 7270263027427560659
+      spriteID: 03304e3bba0954fb0800000000000000
+      internalID: -4664162771940408528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shocked_Snake_Sprite_9
+      name: WaternCracks_5
       rect:
         serializedVersion: 2
         x: 16
-        y: 74
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -285,186 +252,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63a73ab4dbc6e6520800000000000000
-      internalID: 2697212787115129398
+      spriteID: 0808ccb6c1011a210800000000000000
+      internalID: 1342371878186811520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shocked_Snake_Sprite_11
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 74
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7dfb678fbfbc2c4b0800000000000000
-      internalID: -5421546718334894121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shocked_Snake_Sprite_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 58
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8e00110eaeeb7130800000000000000
-      internalID: 3565705961103429263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shocked_Snake_Sprite_13
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 58
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72d8d541c7817fca0800000000000000
-      internalID: -5983286658741727961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shocked_Snake_Sprite_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 42
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05d1d200b28a02390800000000000000
-      internalID: -7845085648239387312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shocked_Snake_Sprite_16
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 42
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f013d164c53cb4590800000000000000
-      internalID: -7688837137724264177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shocked_Snake_Sprite_18
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 41
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b772d48f0aa902b0800000000000000
-      internalID: -5617772076538366030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shocked_Snake_Sprite_20
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 10
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd05f8d49336f1560800000000000000
-      internalID: 7286651819874275551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shocked_Snake_Sprite_21
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 10
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b1f557ebcf546b60800000000000000
-      internalID: 7738415389093523896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shocked_Snake_Sprite_22
+      name: WaternCracks_6
       rect:
         serializedVersion: 2
         x: 32
-        y: 10
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -474,18 +273,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e891de15e3c883e80800000000000000
-      internalID: -8198648922337633906
+      spriteID: b79167190d5751c00800000000000000
+      internalID: 870731641620142459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shocked_Snake_Sprite_23
+      name: WaternCracks_7
       rect:
         serializedVersion: 2
         x: 48
-        y: 10
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -495,20 +294,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b124beceb4fb681d0800000000000000
-      internalID: -3348778940085091813
+      spriteID: f6d28d66010d69f60800000000000000
+      internalID: 8040842953580096879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shocked_Snake_Sprite_24
+      name: WaternCracks_8
       rect:
         serializedVersion: 2
-        x: 80
-        y: 8
+        x: 16
+        y: 16
         width: 16
-        height: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -516,8 +315,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60326305051fa8ca0800000000000000
-      internalID: -6013729025154473210
+      spriteID: b197eb40d809431c0800000000000000
+      internalID: -4524832790256125669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaternCracks_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e282571e4fbbfe060800000000000000
+      internalID: 6985008207503894574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaternCracks_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35f3d0dd3adec9d0800000000000000
+      internalID: -2752022363245382341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaternCracks_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ea1d810f8137050800000000000000
+      internalID: 5797004564843572864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaternCracks_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad588ac7f1fc5e2e0800000000000000
+      internalID: -2097042317328742950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaternCracks_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55686aeb57d2cc2b0800000000000000
+      internalID: -5563021455976397227
       vertices: []
       indices: 
       edges: []

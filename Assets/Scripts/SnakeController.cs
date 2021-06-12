@@ -206,6 +206,11 @@ namespace Assets.Scripts
 
                     Destroy(col.gameObject);
                 }
+                else if (col.CompareTag("Boost"))
+                {
+                    Destroy(col.gameObject);
+                    TurnLength *= 0.75f;
+                }
                 else if (col.CompareTag("Goal") || col.CompareTag("Pit") || col.CompareTag("Water")) //TODO: make less stupid
                 {
 
