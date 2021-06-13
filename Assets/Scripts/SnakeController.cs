@@ -271,8 +271,8 @@ namespace Assets.Scripts
                 {
                     var go =  Instantiate(bodySegment, pos, Quaternion.identity, this.transform);
                     var bt = go.GetComponent<BodyTurner>();
-                    var upstream = Body[i] - Body[i - 1];
-                    var downstream = Body[i] - Body[i + 1];
+                    var upstream = Body[i - 1] - Body[i];
+                    var downstream = Body[i + 1] - Body[i];
                     bt.RenderDirection(upstream, downstream);
                 }
             }
