@@ -27,10 +27,16 @@ public class Dialogue : MonoBehaviour
         {
             continueButton.SetActive(true);
         }
-        if (Input.anyKey) {
+        if (Input.anyKeyDown) {
             StopCoroutine("Type");
             textDisplay.text = sentences[index];
+            
         }
+        if (Input.anyKeyDown && continueButton.active == true)
+        {
+            NextSentence();
+        }
+
     }
     IEnumerator Type()
     {
