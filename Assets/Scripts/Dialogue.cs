@@ -18,7 +18,7 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         //source = GetComponent<AudioSource>();
-        StartCoroutine(Type());
+        StartCoroutine("Type");
     }
 
     void Update()
@@ -27,6 +27,10 @@ public class Dialogue : MonoBehaviour
         {
             continueButton.SetActive(true);
         }
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            StopCoroutine("Type");
+            textDisplay.text = sentences[index];
+        }
     }
     IEnumerator Type()
     {
@@ -34,7 +38,15 @@ public class Dialogue : MonoBehaviour
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
+            //if user clicks/ hits enter, go to end of line
+            //break cycle
         }
+    }
+
+    void OnMouseDown()
+    {
+        StopCoroutine(Type());
+
     }
 
     public void NextSentence()
@@ -46,7 +58,7 @@ public class Dialogue : MonoBehaviour
         {
             index++;
             textDisplay.text = "";
-            StartCoroutine(Type());
+            StartCoroutine("Type");
         } else
         {
             textDisplay.text = "";
