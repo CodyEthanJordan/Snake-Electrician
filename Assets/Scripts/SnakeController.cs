@@ -52,7 +52,11 @@ namespace Assets.Scripts
         // Update is called once per frame
         void Update()
         {
-            Vector2Int heading = new Vector2Int(Mathf.RoundToInt(Input.GetAxisRaw("Horizontal")), Mathf.RoundToInt(Input.GetAxisRaw("Vertical")));
+            Vector2Int heading = new Vector2Int(Mathf.RoundToInt(Input.GetAxisRaw("Horizontal")), 0);
+            if(heading == Vector2Int.zero)
+            {
+                heading = new Vector2Int(0, Mathf.RoundToInt(Input.GetAxisRaw("Vertical")));
+            }
             UpdateHeading(heading);
             
             turnTimer -= Time.deltaTime;
@@ -271,8 +275,8 @@ namespace Assets.Scripts
                 {
                     var go =  Instantiate(bodySegment, pos, Quaternion.identity, this.transform);
                     var bt = go.GetComponent<BodyTurner>();
-                    var upstream = Body[i] - Body[i - 1];
-                    var downstream = Body[i] - Body[i + 1];
+                    var upstream = Body[i - 1] - Body[i];
+                    var downstream = Body[i + 1] - Body[i];
                     bt.RenderDirection(upstream, downstream);
                 }
             }
