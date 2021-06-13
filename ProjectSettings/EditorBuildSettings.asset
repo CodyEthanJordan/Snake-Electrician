@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: b677529dc7dde8f45a3c3ca7837e679e
+  - enabled: 1
     path: Assets/Scenes/Story/Intro.unity
     guid: 361bd06270a87c04fa6abd1577d8921b
   - enabled: 1
@@ -35,9 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RNG7.unity
     guid: 7a357e7e73ab6cd46996aca536d6d33b
-  - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: b677529dc7dde8f45a3c3ca7837e679e
   - enabled: 1
     path: Assets/Scenes/Mzacks testing bullshit.unity
     guid: 1c9e349f66c583949abad5cf13f98e86
