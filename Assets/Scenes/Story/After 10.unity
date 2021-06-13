@@ -428,7 +428,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - NEED TEXT
+  - Well I hope you're happy, you little snake in the grass.
+  - Now everyone and their snake mother is expecting quality service.
+  - Even old timers like me are going to have to pull their own weight.
+  - Looks like it's early retirement for me.
+  - Fangs for nothing, you little ingrate.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: Intro

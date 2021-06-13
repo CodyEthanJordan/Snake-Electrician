@@ -428,7 +428,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - NEED TEXT
+  - Bosses just called.
+  - They want you to get this one done quick.
+  - "City Hall\u2019s gone dark."
+  - Those Civil Serpents are all panicking.
+  - Bosses say to hurry up and take chances.
+  - "You\u2019ve got good life insurance."
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: RNG8

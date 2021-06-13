@@ -429,11 +429,9 @@ MonoBehaviour:
   textDisplay: {fileID: 696839770}
   sentences:
   - Well hot damn, Snake!
-  - "Don\u2019t worry about how long it took, it\u2019s all billable hours."
-  - "Of course, you\u2019re still getting your normal rate, but once you\u2019re
-    off probation we\u2019ll get you some overtime."
+  - Folks 'round here are real happy with your work.
   - I do have some bad news.
-  - We ran out of those frozen rat snakes.
+  - We ran out of those frozen rat steaks.
   - "Sorry, kid, but that\u2019s seniority for you."
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
