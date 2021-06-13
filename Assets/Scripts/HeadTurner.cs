@@ -30,7 +30,7 @@ namespace Assets.Scripts
         {
             if(transform.childCount > 0)
             {
-                //transform.GetChild(0).GetComponent<HeadTurner>().RenderDirection(dir);
+                transform.GetChild(0).GetComponent<HeadTurner>().RenderDirection(dir);
             }
             
             if (!shocked)
