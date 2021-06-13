@@ -428,19 +428,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - "All right Mr. Hot Shot Rookie, let\u2019s see you sort this one out in a hurry."
-  - "Snake Oil Industries has a refinery on the edge of town that\u2019s had a bunch
-    of problems."
-  - "They got some kind of leak, so there\u2019s oil everywhere."
+  - Next up for ya, an old office building.
   - Not even those non-union scabs want to try and take this one from us.
   - Sounds like just the job for an up and comer such as yourself.
-  - Bosses just called.
-  - They want you to get this one done quick.
-  - They say to hurry up and take chances.
-  - "You\u2019ve got good life insurance."
+  - Watch that hole, make sure you keep your tail on the ground.
+  - Don't need OSSSHA crawlin' up our tails.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: RNG5
+  nextScene: RNG6
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0

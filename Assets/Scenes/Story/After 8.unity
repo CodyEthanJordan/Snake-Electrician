@@ -428,7 +428,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - NEED TEXT
+  - That one took you a while, but don't fret.
+  - It's all billable hours.
+  - Of course, you're still getting your normal rate.
+  - Once I sign off on your probation, you can get overtime.
+  - For now, it's apprentice wages for you, sonny boy.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: Before 9

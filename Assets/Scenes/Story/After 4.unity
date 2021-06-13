@@ -428,10 +428,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - "All right, good work kid, but don\u2019t break your tail stroking your own back."
-  - "I\u2019d have gotten it done in half the time back in my day, and twice as good."
-  - "We\u2019ll probably be back out there in a week."
-  - And by we, I mean you.
+  - Some real fancy work in there.
+  - Gettin' all kinds of calls for work orders.
+  - You remind me of a younger me.
+  - Just not nearly as handsome. Or smart.
+  - Haw haw haw
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: Before 5

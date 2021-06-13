@@ -428,7 +428,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - NEED TEXT
+  - You got lucky this time, rookie.
+  - Don't go gettin' cocky on me.
+  - Remember, us senior guys do all the real work.
+  - Ain't gonna do you much good makin' life harder for us.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: Before 7

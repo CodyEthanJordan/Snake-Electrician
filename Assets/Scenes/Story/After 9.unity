@@ -428,10 +428,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - NEED TEXT
+  - You sure took your sweet time with that one.
+  - Little Mr. Perfect slowing down?
+  - Don't matter to me.
+  - We're chargin' them the government rate.
+  - They think it's a discount, but we mark it up ten percent.
+  - Haw haw haw
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: Level Select
+  nextScene: Before 10
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0

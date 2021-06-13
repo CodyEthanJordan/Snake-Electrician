@@ -434,8 +434,7 @@ MonoBehaviour:
   - Just use your conductive body to finish out the circuit.
   - "Your hardhat should keep you safe enough but just in case, if you do die in
     there you\u2019re fired before you finish twitchin\u2019."
-  - Just take your time, Snake.
-  - "This here\u2019s a union job, got nothing but time."
+  - Haw haw haw
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: RNG2

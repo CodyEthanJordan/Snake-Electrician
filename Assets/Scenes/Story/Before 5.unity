@@ -326,18 +326,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - "Okay kid, here\u2019s the real deal."
-  - Looks like the Cape Coral Snake Nuclear Power Plant is having some serious malfunctions.
-  - "It\u2019s probably safe enough to go in and get things fixed up."
-  - "I\u2019d tell you to be careful, but a little upstart like you probably doesn\u2019t
-    listen to the senior guy any more."
-  - Good luck. See you if you get back.
-  - "Not to distract you, but HR just called to confirm that your health benefits
-    don\u2019t kick in for another month."
-  - You can leave now, but just to be clear, you will be fired for cause.
+  - Real big doings today, Snake.
+  - Snake Oil Industries has a refinery with a bunch of problems.
+  - This is what they get for hiring a bunch of scabs to do the work of honest union
+    men.
+  - Get in there and show them how it's done.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: RNG6
+  nextScene: RNG5
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0

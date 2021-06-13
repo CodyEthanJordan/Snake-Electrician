@@ -428,10 +428,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - NEED TEXT
+  - "You remember that old saying \u201CRed and Yellow Kill A Fellow?\""
+  - Yeah, pretty much sums it up for this next place.
+  - "Try not to touch anything looks dangerous in there, and don\u2019t break nothin\u2019."
+  - "It\u2019s comin\u2019 out of your wallet."
+  - Haw haw haw.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: Level Select
+  nextScene: westonTest
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0
