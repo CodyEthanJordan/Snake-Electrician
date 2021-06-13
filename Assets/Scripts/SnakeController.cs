@@ -52,7 +52,11 @@ namespace Assets.Scripts
         // Update is called once per frame
         void Update()
         {
-            Vector2Int heading = new Vector2Int(Mathf.RoundToInt(Input.GetAxisRaw("Horizontal")), Mathf.RoundToInt(Input.GetAxisRaw("Vertical")));
+            Vector2Int heading = new Vector2Int(Mathf.RoundToInt(Input.GetAxisRaw("Horizontal")), 0);
+            if(heading == Vector2Int.zero)
+            {
+                heading = new Vector2Int(0, Mathf.RoundToInt(Input.GetAxisRaw("Vertical")));
+            }
             UpdateHeading(heading);
             
             turnTimer -= Time.deltaTime;
