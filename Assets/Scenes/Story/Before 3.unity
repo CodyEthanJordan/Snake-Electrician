@@ -329,14 +329,10 @@ MonoBehaviour:
   - That old government-funded hospital is on the fritz again.
   - "Life support\u2019s going crazy, lights flickerin\u2019."
   - "Hell, even the morgue\u2019s thawin\u2019 out."
-  - See if you can get into their mechanical room and figure out just how screwed
-    up it is.
-  - Just watch out for old glue traps.
-  - Last rookie we sent in never came out.
-  - Take your time with this one.
-  - " We\u2019re chargin\u2019 them the government rate, which they think is a discount
-    but is actually marked up ten percent."
-  - Haw haw haw.
+  - See if you can get in and figure out just how screwed up it is.
+  - Just stretch out over any holes in the ground.
+  - You'll be fine.
+  - Probably.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: RNG4

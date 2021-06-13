@@ -428,7 +428,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - NEED TEXT
+  - All right Mr. Hot Shot Rookie, let's see you sort this one out in a hurry.
+  - Seems like the city's got a problem at their water plant.
+  - They may not have covered this at the safety seminar, but water and electricity
+    don't play together too good.
+  - Try and avoid one if you're already in the other.
+  - Haw haw haw
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: RNG7

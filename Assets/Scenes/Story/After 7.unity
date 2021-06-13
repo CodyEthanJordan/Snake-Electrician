@@ -326,7 +326,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - NEED TEXT
+  - All right, good work kid, but don't go breaking your tail strokin' your own cloaca.
+  - I'd have gotten it done in half the time back in my day.
+  - And twice as good.
+  - We'll probably be back out there in a week.
+  - And by we, I mean you.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: Before 8

@@ -428,12 +428,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - "Well I hope you\u2019re happy, you little snake in the grass."
-  - "Now that you\u2019ve cleaned up this mess toot sweet, everybody and their snake
-    mother is going to be expecting fast and efficient service."
-  - Even old timers like me are going to be expected to pull their weight.
-  - "Looks like it\u2019s early retirement for me, I just don\u2019t have the back
-    for this kind of hard work any more."
+  - Things're runnin' like a well-oiled machine.
+  - 'Well done, kid. '
+  - Hell, at this rate I'm going to have to watch out for my own job.
+  - Haw haw haw.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: Before 6

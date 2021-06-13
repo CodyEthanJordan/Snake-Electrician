@@ -428,7 +428,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - NEED TEXT
+  - "Okay kid, here\u2019s the real deal."
+  - Looks like the Cape Coral Snake Nuclear Power Plant is having some serious malfunctions.
+  - "It\u2019s probably safe enough to go in and get things fixed up."
+  - "I\u2019d tell you to be careful, but a little upstart like you probably doesn\u2019t
+    listen to the senior guy any more."
+  - Good luck.
+  - See you if you get back.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: Weston 2

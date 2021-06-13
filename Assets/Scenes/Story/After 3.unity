@@ -326,12 +326,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - "Hell, kid, I\u2019m surprised you made it out in one piece."
-  - "I mean, good for you an\u2019 all, but don\u2019t go tryin\u2019 to show off."
-  - "Remember, we\u2019re electricians."
-  - "Ain\u2019t supposed to be fast."
-  - " If you ain\u2019t careful some people around here might think you\u2019re trying
-    to make them look bad."
+  - Hell kid, I'm surprised you made it out in one piece.
+  - Don't go tryin' to show off. We're electricians.
+  - Ain't supposed to be fast.
+  - If you ain't careful, some people might think you're trying to make 'em look
+    bad.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: Before 4
