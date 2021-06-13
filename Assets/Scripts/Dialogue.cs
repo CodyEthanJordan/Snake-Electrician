@@ -27,7 +27,7 @@ public class Dialogue : MonoBehaviour
         {
             continueButton.SetActive(true);
         }
-        if (Input.GetKeyDown(KeyCode.Space)) {
+        if (Input.anyKey) {
             StopCoroutine("Type");
             textDisplay.text = sentences[index];
         }
@@ -38,8 +38,6 @@ public class Dialogue : MonoBehaviour
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
-            //if user clicks/ hits enter, go to end of line
-            //break cycle
         }
     }
 
