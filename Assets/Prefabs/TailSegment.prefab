@@ -127,3 +127,9 @@ MonoBehaviour:
   - {fileID: 40338430769359884, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
   - {fileID: 345289679581563143, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
   - {fileID: -4243630222745378731, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  ShockedSprites:
+  - {fileID: 7286651819874275551, guid: 109645e42ea11f8468a8f51328bfb7f3, type: 3}
+  - {fileID: 7738415389093523896, guid: 109645e42ea11f8468a8f51328bfb7f3, type: 3}
+  - {fileID: -8198648922337633906, guid: 109645e42ea11f8468a8f51328bfb7f3, type: 3}
+  - {fileID: -3348778940085091813, guid: 109645e42ea11f8468a8f51328bfb7f3, type: 3}
+  shocked: 0

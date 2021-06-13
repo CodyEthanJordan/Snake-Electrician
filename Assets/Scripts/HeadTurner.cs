@@ -10,6 +10,9 @@ namespace Assets.Scripts
     public class HeadTurner : MonoBehaviour
     {
         public Sprite[] Sprites;
+        public Sprite[] ShockedSprites;
+
+        public bool shocked = false;
 
         private SpriteRenderer sr;
 
@@ -18,23 +21,55 @@ namespace Assets.Scripts
             sr = GetComponent<SpriteRenderer>();
         }
 
+        public void ToggleShock()
+        {
+            shocked = !shocked;
+        }
+
         public void RenderDirection(Vector2Int dir)
         {
-            if(dir == Vector2Int.up)
+            if(transform.childCount > 0)
             {
-                sr.sprite = Sprites[0];
+                //transform.GetChild(0).GetComponent<HeadTurner>().RenderDirection(dir);
             }
-            else if(dir == Vector2Int.right)
+            
+            if (!shocked)
             {
-                sr.sprite = Sprites[1];
-            }
-            else if(dir == Vector2Int.down)
-            {
-                sr.sprite = Sprites[2];
+                if (dir == Vector2Int.up)
+                {
+                    sr.sprite = Sprites[0];
+                }
+                else if (dir == Vector2Int.right)
+                {
+                    sr.sprite = Sprites[1];
+                }
+                else if (dir == Vector2Int.down)
+                {
+                    sr.sprite = Sprites[2];
+                }
+                else
+                {
+                    sr.sprite = Sprites[3];
+                }
             }
             else
             {
-                sr.sprite = Sprites[3];
+                if (dir == Vector2Int.up)
+                {
+                    sr.sprite = ShockedSprites[0];
+                }
+                else if (dir == Vector2Int.right)
+                {
+                    sr.sprite = ShockedSprites[1];
+                }
+                else if (dir == Vector2Int.down)
+                {
+                    sr.sprite = ShockedSprites[2];
+                }
+                else
+                {
+                    sr.sprite = ShockedSprites[3];
+                }
             }
         }
     }
