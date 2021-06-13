@@ -435,7 +435,7 @@ MonoBehaviour:
   - Don't need OSSSHA crawlin' up our tails.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: RNG5
+  nextScene: RNG6
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0

@@ -331,7 +331,7 @@ MonoBehaviour:
   - You can leave now, but just to be clear, you will be fired for cause.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: westonTest
+  nextScene: Weston 3
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0

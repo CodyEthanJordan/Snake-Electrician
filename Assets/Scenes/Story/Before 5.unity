@@ -333,7 +333,7 @@ MonoBehaviour:
   - Get in there and show them how it's done.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: RNG6
+  nextScene: RNG5
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0
