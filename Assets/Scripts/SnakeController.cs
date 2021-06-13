@@ -160,6 +160,7 @@ namespace Assets.Scripts
             {
                 Shocked = true;
                 RerenderBody();
+                Pause();
                 lc.GoNextLevel();
             }
         }
