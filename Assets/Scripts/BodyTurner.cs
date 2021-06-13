@@ -10,7 +10,9 @@ namespace Assets.Scripts
     public class BodyTurner : MonoBehaviour
     {
         public Sprite[] Sprites;
+        public Sprite[] ShockedSprites;
 
+        public bool Shocked = false;
         private SpriteRenderer sr;
 
         private static Dictionary<Tuple<Vector2Int, Vector2Int>, int> directions = new Dictionary<Tuple<Vector2Int, Vector2Int>, int>
@@ -37,7 +39,14 @@ namespace Assets.Scripts
         public void RenderDirection(Vector2Int upstream, Vector2Int downstream)
         {
             int i = directions[new Tuple<Vector2Int, Vector2Int>(upstream, downstream)];
-            sr.sprite = Sprites[i];
+            if (Shocked)
+            {
+                sr.sprite = ShockedSprites[i];
+            }
+            else
+            {
+                sr.sprite = Sprites[i];
+            }
         }
     }
 }

@@ -16,6 +16,7 @@ namespace Assets.Scripts
 
         private float turnTimer = 0.5f;
         private Vector2Int nextDirection = Vector2Int.right;
+        public bool Shocked = false;
 
         private int growth = 0;
         private int targetPlugs = 2;
@@ -150,15 +151,19 @@ namespace Assets.Scripts
 
             if(waterTouched > 0 && plugsFound > 0)
             {
+                Shocked = true;
+                RerenderBody();
                 Die(); //electrocuted, TODO: anim
             }
 
             if (plugsFound >= targetPlugs)
             {
-                Debug.LogError("WIN");
+                Shocked = true;
+                RerenderBody();
                 lc.GoNextLevel();
             }
         }
+
 
         private void UpdateHeading(Vector2Int heading)
         {
@@ -273,18 +278,21 @@ namespace Assets.Scripts
                 {
                     var go =  Instantiate(headSegment, pos, Quaternion.identity, this.transform);
                     var ht = go.GetComponent<HeadTurner>();
+                    ht.shocked = Shocked;
                     ht.RenderDirection(nextDirection);
                 }
                 else if(i == Body.Count - 1)
                 {
                     var go =  Instantiate(tailSegment, pos, Quaternion.identity, this.transform);
                     var ht = go.GetComponent<HeadTurner>();
+                    ht.shocked = Shocked;
                     ht.RenderDirection(Body[Body.Count-2] - Body[Body.Count-1]);
                 }
                 else 
                 {
                     var go =  Instantiate(bodySegment, pos, Quaternion.identity, this.transform);
                     var bt = go.GetComponent<BodyTurner>();
+                    bt.Shocked = Shocked;
                     var upstream = Body[i - 1] - Body[i];
                     var downstream = Body[i + 1] - Body[i];
                     bt.RenderDirection(upstream, downstream);

@@ -29,7 +29,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.0372996, y: -0.47313833, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4661158782765450926}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -127,3 +128,111 @@ MonoBehaviour:
   - {fileID: -8817839794701117053, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
   - {fileID: -1270746547562433882, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
   - {fileID: 4855387938610582842, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  ShockedSprites:
+  - {fileID: 1982901939121144394, guid: 109645e42ea11f8468a8f51328bfb7f3, type: 3}
+  - {fileID: -6889385737735840025, guid: 109645e42ea11f8468a8f51328bfb7f3, type: 3}
+  - {fileID: -2863459395957006354, guid: 109645e42ea11f8468a8f51328bfb7f3, type: 3}
+  - {fileID: -7792648404851436152, guid: 109645e42ea11f8468a8f51328bfb7f3, type: 3}
+  shocked: 0
+--- !u!1 &7860348317538572664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4661158782765450926}
+  - component: {fileID: 5886320316347652211}
+  - component: {fileID: 7263510330145423037}
+  m_Layer: 0
+  m_Name: Snake_Sprite_10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4661158782765450926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7860348317538572664}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.048, y: 0.07963464, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5455199875591014106}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5886320316347652211
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7860348317538572664}
+  m_Enabled: 0
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -898501547
+  m_SortingLayer: 4
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 132322817098796574, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &7263510330145423037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7860348317538572664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7909121de9c862e4d9b95127b5784c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: -5911841005508945945, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  - {fileID: 1019383255894071615, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  - {fileID: -5911841005508945945, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  - {fileID: 2161860867968241073, guid: d9de2af6e4fd84f4fa9e252f60e2eebb, type: 3}
+  ShockedSprites: []
+  shocked: 0

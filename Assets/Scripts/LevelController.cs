@@ -35,6 +35,8 @@ namespace Assets.Scripts
 
         IEnumerator FadeOut()
         {
+            yield return new WaitForSeconds(0.5f);
+                 
             for (float ft = 0f; ft <= 1; ft += 0.1f)
             {
                 var color = BlackFade.color;
@@ -45,10 +47,23 @@ namespace Assets.Scripts
             SceneManager.LoadScene(NextLevelName);
         }
 
-        public void Reload()
+        IEnumerator FadeReload()
         {
+            yield return new WaitForSeconds(0.3f);
+            for (float ft = 0f; ft <= 1; ft += 0.1f)
+            {
+                var color = BlackFade.color;
+                color.a = ft;
+                BlackFade.color = color;
+                yield return new WaitForSeconds(FadeDuration / 10.0f);;
+            }
             Scene scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
+        }
+
+        public void Reload()
+        {
+            StartCoroutine(FadeReload());   
         }
 
         public void GoNextLevel()
