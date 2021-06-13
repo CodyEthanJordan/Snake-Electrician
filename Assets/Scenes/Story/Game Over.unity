@@ -201,15 +201,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b439c891e127aec45b3ff7ff0725ec29, type: 2}
-  m_sharedMaterial: {fileID: -6623720624580098965, guid: b439c891e127aec45b3ff7ff0725ec29, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 480ec3e81544ec548a69d1d070839948, type: 2}
+  m_sharedMaterial: {fileID: -6611940675951440045, guid: 480ec3e81544ec548a69d1d070839948, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.5411765, g: 0.43529412, b: 0.1882353, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -326,16 +326,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisplay: {fileID: 696839770}
   sentences:
-  - All right, which one are you again?
-  - Snake Gyllenhall. Right.
-  - "Well, welcome to the International Serpenthood of Electric Workers. Here\u2019s
-    your complimentary hardhat and toolbelt."
-  - "Don\u2019t worry about the cost, it\u2019s already been taken out of your first
-    paycheck."
-  - "I\u2019m the night shift supervisor, Mr. Boagart, but you can call me Supe."
-  - "I\u2019ll be walking you through the day\u2019s agenda, making sure you don\u2019t
-    break nothin\u2019, and taking credit for your hard work."
-  - Haw haw haw.
+  - Snake?
+  - ...Snake?
+  - ...
+  - SNAAAAAAAKEEEE!!!!
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
   nextScene: Level Select
@@ -570,7 +564,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Continue >
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b439c891e127aec45b3ff7ff0725ec29, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 480ec3e81544ec548a69d1d070839948, type: 2}
   m_sharedMaterial: {fileID: -6623720624580098965, guid: b439c891e127aec45b3ff7ff0725ec29, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -862,7 +856,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1906188146}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
