@@ -99,3 +99,5 @@ MonoBehaviour:
   TurnLength: 0.4
   bodySegment: {fileID: 83342864338876351, guid: e6809fd922dea2644ba3e55dc37cd4d7, type: 3}
   headSegment: {fileID: 1997103578377757695, guid: 3022d84b4fa33804da20d82ff8f9f36c, type: 3}
+  tailSegment: {fileID: 8717501460307121580, guid: 8b265b8cd493e8e4dacaeea2c630c1e5, type: 3}
+  lc: {fileID: 0}
