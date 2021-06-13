@@ -2945,7 +2945,7 @@ Tilemap:
       - {fileID: -1451592737728803580, guid: 371d7ab5521106e4d9026d21123f3f9b, type: 3}
       - {fileID: -6205793050654372317, guid: 371d7ab5521106e4d9026d21123f3f9b, type: 3}
       - {fileID: 1786317028118949736, guid: 371d7ab5521106e4d9026d21123f3f9b, type: 3}
-      m_AnimationSpeed: 50
+      m_AnimationSpeed: 50.000004
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -7, y: -7, z: 0}
@@ -2989,7 +2989,7 @@ Tilemap:
       - {fileID: -1451592737728803580, guid: 371d7ab5521106e4d9026d21123f3f9b, type: 3}
       - {fileID: -6205793050654372317, guid: 371d7ab5521106e4d9026d21123f3f9b, type: 3}
       - {fileID: 1786317028118949736, guid: 371d7ab5521106e4d9026d21123f3f9b, type: 3}
-      m_AnimationSpeed: 50.000004
+      m_AnimationSpeed: 50
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 5, y: -7, z: 0}
@@ -4474,7 +4474,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.69
+  orthographic size: 7.87
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
