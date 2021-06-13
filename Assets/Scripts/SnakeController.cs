@@ -107,6 +107,16 @@ namespace Assets.Scripts
             lc.Reload();
         }
 
+        public void Pause()
+        {
+            turnTimer = float.PositiveInfinity;
+        }
+
+        public void Resume()
+        {
+            turnTimer = TurnLength * 1.5f;
+        }
+
         private void CheckTouching()
         {
             int plugsFound = 0;
