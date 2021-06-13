@@ -435,7 +435,7 @@ MonoBehaviour:
   - Fangs for nothing, you little ingrate.
   typingSpeed: 0.04
   continueButton: {fileID: 1651234353}
-  nextScene: Intro
+  nextScene: Level Select
 --- !u!4 &1334446174
 Transform:
   m_ObjectHideFlags: 0

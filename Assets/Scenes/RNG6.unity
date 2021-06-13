@@ -2988,7 +2988,7 @@ Tilemap:
       - {fileID: -1451592737728803580, guid: 371d7ab5521106e4d9026d21123f3f9b, type: 3}
       - {fileID: -6205793050654372317, guid: 371d7ab5521106e4d9026d21123f3f9b, type: 3}
       - {fileID: 1786317028118949736, guid: 371d7ab5521106e4d9026d21123f3f9b, type: 3}
-      m_AnimationSpeed: 50
+      m_AnimationSpeed: 50.000004
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 5, y: -7, z: 0}
@@ -4171,7 +4171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99846f8c75467304f82cbbadc120dcb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextLevelName: After 5
+  NextLevelName: After 4
   BlackFade: {fileID: 0}
   FadeDuration: 0.3
 --- !u!4 &730926993
